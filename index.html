@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="image/png" sizes="96x96" rel="icon" href="./img/favicon/icons8-программирование-gradient-96.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <title>Карина Лесогор</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__wrap container">
+            <!-- мобильная навигация -->
+            <button class="header__nav-btn">
+                <span class="header__nav-btn-icon"></span>
+            </button>
+            <div class="header__mobile-nav header__mobile-nav_hidden">
+                <div class="header__mobile-list">
+                    <a href="#top">Главная</a>
+                    <a href="#skills">Мои навыки</a>
+                    <a href="#portfolio">Мои работы</a>
+                    <!-- <a href="#form">Контакты</a> -->
+                </div>
+                <div class="header__icons header__icons_mobile">
+                    <picture>
+                        <a href="//t.me/karina_lesogor" class="header__icon">
+                            <?xml version="1.0" encoding="UTF-8"?>
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 24 24"
+                                style="enable-background:new 0 0 24 24;" xml:space="preserve" width="43" height="50">
+                                <g id="Artboard">
+                                    <path style="fill-rule:evenodd;clip-rule:evenodd;"
+                                        d="M12,0C5.373,0,0,5.373,0,12s5.373,12,12,12s12-5.373,12-12S18.627,0,12,0z    M17.562,8.161c-0.18,1.897-0.962,6.502-1.359,8.627c-0.168,0.9-0.5,1.201-0.82,1.23c-0.697,0.064-1.226-0.461-1.901-0.903   c-1.056-0.692-1.653-1.123-2.678-1.799c-1.185-0.781-0.417-1.21,0.258-1.911c0.177-0.184,3.247-2.977,3.307-3.23   c0.007-0.032,0.015-0.15-0.056-0.212s-0.174-0.041-0.248-0.024c-0.106,0.024-1.793,1.139-5.062,3.345   c-0.479,0.329-0.913,0.489-1.302,0.481c-0.428-0.009-1.252-0.242-1.865-0.442c-0.751-0.244-1.349-0.374-1.297-0.788   c0.027-0.216,0.324-0.437,0.892-0.663c3.498-1.524,5.831-2.529,6.998-3.015c3.333-1.386,4.025-1.627,4.477-1.635   C17.472,7.214,17.608,7.681,17.562,8.161z" />
+                                </g>
+                            </svg>
+                        </a>
+                    </picture>
+
+                    <a href="//wa.me/+79644407408" class="header__icon">
+                        <?xml version="1.0" encoding="UTF-8"?>
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                            id="Capa_1" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;"
+                            xml:space="preserve" width="512" height="512">
+                            <g id="WA_Logo">
+                                <g>
+                                    <path style="fill-rule:evenodd;clip-rule:evenodd;"
+                                        d="M20.463,3.488C18.217,1.24,15.231,0.001,12.05,0    C5.495,0,0.16,5.334,0.157,11.892c-0.001,2.096,0.547,4.142,1.588,5.946L0.057,24l6.304-1.654    c1.737,0.948,3.693,1.447,5.683,1.448h0.005c6.554,0,11.89-5.335,11.893-11.893C23.944,8.724,22.708,5.735,20.463,3.488z     M12.05,21.785h-0.004c-1.774,0-3.513-0.477-5.031-1.378l-0.361-0.214l-3.741,0.981l0.999-3.648l-0.235-0.374    c-0.99-1.574-1.512-3.393-1.511-5.26c0.002-5.45,4.437-9.884,9.889-9.884c2.64,0,5.122,1.03,6.988,2.898    c1.866,1.869,2.893,4.352,2.892,6.993C21.932,17.351,17.498,21.785,12.05,21.785z M17.472,14.382    c-0.297-0.149-1.758-0.868-2.031-0.967c-0.272-0.099-0.47-0.149-0.669,0.148s-0.767,0.967-0.941,1.166    c-0.173,0.198-0.347,0.223-0.644,0.074c-0.297-0.149-1.255-0.462-2.39-1.475c-0.883-0.788-1.48-1.761-1.653-2.059    s-0.018-0.458,0.13-0.606c0.134-0.133,0.297-0.347,0.446-0.521C9.87,9.97,9.919,9.846,10.019,9.647    c0.099-0.198,0.05-0.372-0.025-0.521C9.919,8.978,9.325,7.515,9.078,6.92c-0.241-0.58-0.486-0.501-0.669-0.51    C8.236,6.401,8.038,6.4,7.839,6.4c-0.198,0-0.52,0.074-0.792,0.372c-0.272,0.298-1.04,1.017-1.04,2.479    c0,1.463,1.065,2.876,1.213,3.074c0.148,0.198,2.095,3.2,5.076,4.487c0.709,0.306,1.263,0.489,1.694,0.626    c0.712,0.226,1.36,0.194,1.872,0.118c0.571-0.085,1.758-0.719,2.006-1.413c0.248-0.694,0.248-1.29,0.173-1.413    C17.967,14.605,17.769,14.531,17.472,14.382z" />
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                    <a href="mailto:karina_lesogor@mail.ru" class="hedaer__icon"><img class="header__img"
+                            src="./img/email.svg" alt="почта"></a>
+                    <a href="tel:+79644407408" class="header__icon"><img class="header__img" src="./img/phone.svg"
+                            alt="позвонить"></a>
+
+                </div>
+            </div>
+            <nav class="header__nav">
+                <ul>
+                    <li>
+                        <a href="#top" class="header__link">Главная</a>
+                    </li>
+                    <li>
+                        <a href="#skills" class="header__link">Мои навыки</a>
+                    </li>
+
+                    <li>
+                        <a href="#portfolio" class="header__link">Мои работы</a>
+                    </li>
+                    <!-- <li>
+                        <a href="#form" class="header__link">Контакты</a>
+                    </li> -->
+                </ul>
+
+
+
+            </nav>
+
+
+            <div class="header__icons">
+                <p>
+                    <a href="//t.me/karina_lesogor" class="header__icon"><img class="header__img"
+                            src="./img/telegram.svg" alt="телеграм"></a>
+                    <a href="//wa.me/+79644407408" class="header__icon"><img class="header__img"
+                            src="./img/whatsApp.svg" alt="whatsApp"></a>
+                    <a href="mailto:karina_lesogor@mail.ru" class="hedaer__icon"><img class="header__img"
+                            src="./img/email.svg" alt="почта"></a>
+                    <a href="tel:+79644407408" class="header__icon"><img class="header__img" src="./img/phone.svg"
+                            alt="позвонить"></a>
+                </p>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main__wrap">
+            <div class="main__hero container">
+
+                <div class="main__text-wrap">
+                    <div class="main__text">Карина Лесогор<p>HTML-верстальщик</p><span>г. Владивосток (МСК+7)</span>
+                    </div>
+                    <div class="main__time">
+                        <p>У меня сейчас 11:18ч (Я на связи)</p>
+                    </div>
+                    <button href="#" class="main__btn">Заказать верстку</button>
+                </div>
+                <!-- модальное окно -->
+                <div class="main__modal">
+                    <div class="main__modal-window">
+                        <form enctype="multipart/form-data" method="post" class="main__form" action="index.html">
+                            <input type="text" placeholder="Ваше имя*" required>
+                            <input type="e-mail" placeholder="Ваш e-mail и(или)номер телефона*" required>
+                            <div class="main__file-wrap">
+                                <label class="main__name-file">Файлы для верстки</label>
+                                <button class="main__file-btn">Обзор</button>
+                                <input type="file" name="f" multiple>
+                            </div>
+                            <textarea name="text" class="main__textarea" placeholder="Сообщение.."></textarea>
+                            <input class="main__submit" type="submit" value="Отправить">
+
+                        </form>
+                        <p class="main__contact"><span>tel.:</span><a href="tel:+79644407408"> +7 964-440-74-08</a>
+                        </p>
+                        <p class="main__contact"><span>e-mail:</span><a href="mailto:karina_lesogor@mail.ru">
+                                karina_lesogor@mail.ru</a></p>
+                        <p class="main__contact"><span>telegram:</span><a href="//t.me/karina_lesogor">
+                                @karina_lesogor</a></p>
+
+                    </div>
+
+                </div>
+
+                <div class="main__foto">
+                    <img src="./img/my-photo.jpg" alt="photo">
+                </div>
+
+            </div>
+            <div class="main__technology-wrap container">
+                <h1 class="main__title">В ногу со временем</h1>
+                <div class="main__technology container">
+
+                    <div class="main__tech-box">
+                        <div class="main__box-inner">
+                            <div class="main__box-front">
+                                <h2 class="main__tech-title">html5</h2>
+                                <p class="main__tech-text">Валидный код соответствующий W3C-стандартам</p>
+                            </div>
+                        </div>
+                        <div class="main__box-back">
+                            <h2 class="main__tech-title">html5</h2>
+                            <p class="main__tech-text">Чистый код написанный вручную с комментариями.</p>
+                        </div>
+
+                    </div>
+                    <div class="main__tech-box">
+                        <div class="main__box-inner">
+                            <div class="main__box-front">
+                                <h2 class="main__tech-title">css3</h2>
+                                <p class="main__tech-text">Стилизация элементов по современным стандартам</p>
+                            </div>
+                        </div>
+                        <div class="main__box-back border">
+                            <h2 class="main__tech-title">css3</h2>
+                            <p class="main__tech-text">Стили прописанные в отдельных файлах css.</p>
+                        </div>
+
+                    </div>
+                    <div class="main__tech-box">
+                        <div class="main__box-inner">
+                            <div class="main__box-front">
+                                <h2 class="main__tech-title">java script</h2>
+                                <p class="main__tech-text">Динамичные<br>живые страницы</p>
+                            </div>
+                        </div>
+                        <div class="main__box-back main__box-back_blockJs">
+                            <p class="main__back-text">Score: <span id="score">0</span></p>
+                            <p class="main__tech-title" id="escapeText">java script</p>
+                            <!-- <p class="main__tech-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+            <!-- модальное окно skill -->
+            <div class="main__skill-modal">
+                <div class="main__modal-window-bem main__modal-window-bem_hidden">
+                    БЭМ (Блок, Элемент, Модификатор) — компонентный подход к веб-разработке. В его основе лежит принцип
+                    разделения
+                    интерфейса на независимые блоки. Он позволяет легко и быстро разрабатывать интерфейсы любой
+                    сложности и повторно
+                    использовать существующий код, избегая «Copy-Paste».
+                </div>
+                <div class="main__modal-window-sass main__modal-window-sass_hidden">
+                    Sass (или Syntactically Awesome Stylesheets) – это скриптовый метаязык (т.е. язык, описывающий
+                    другой язык),
+                    разработанный для упрощения файлов CSS. Этот модуль входит в Haml (HTML abstraction markup
+                    language), который
+                    используется для упрощения HTML.
+                </div>
+            </div>
+            <div class="main__skills-wrap container">
+                <a name="skills"></a>
+                <div class="main__plug"></div>
+                <h1 class="main__title">Сверстаю из любого формата</h1>
+                <div class="main__skills">
+                    <div class="main__maket-wrap">
+                        <div class="main__maket">
+                            <div class="main__img">
+                                <img src="./img/photoShop.png" alt="photoShop">
+                            </div>
+                            <p>PSD</p>
+                        </div>
+                        <div class="main__maket">
+                            <div class="main__img">
+                                <img src="./img/figma.png" alt="figma">
+                            </div>
+                            <p>Figma</p>
+                        </div>
+                        <div class="main__maket">
+                            <div class="main__img">
+                                <img src="./img/corelDraw.png" alt="coreldraw">
+                            </div>
+                            <p>PDF</p>
+                        </div>
+                    </div>
+                    <div class="main__adaptiv-wrap">
+                        <div class="main__adaptiv container">
+                            <p>Ваш сайт откроется на любом устройстве.</p>
+                            <div class="main__adaptiv-text">Адаптивная "резиновая" верстка.<br>Кроссбраузерность.
+                            </div>
+                            <div class="main__adaptiv-img">
+                                <img src="./img/adaptiv.jpg" alt="imgAdaptiv">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__pixel-wrap">
+                        <div class="main__pixel container">
+                            <div class="main__pixel-text">"Пиксель в пиксель" 100% совпадение с вашим макетом
+                            </div>
+                            <div class="main__pixel-title">perfect<br><span>pixel</span></div>
+                        </div>
+                    </div>
+                    <div class="main__skill-container">
+                        <div class="main__skill container">
+                            <div class="main__skill-text">
+                                <p>Методология <span id="modalBem">БЭМ</span><br>Код легко читать легко поддерживать
+                                </p>
+                            </div>
+                            <div class="main__skill-bg">
+                                <img src="./img/bemBg.png" alt="навыкБэм">
+                            </div>
+                        </div>
+
+                        <!-- <div class="main__skill container">
+                            <div class="main__skill-text">GitHub<br>Доступность кода</div>
+                            <div class="main__skill-bg main__skill-bg_color">
+                                <img src="./img/gitBg.png" alt="навыкGit">
+                            </div>
+
+                        </div> -->
+
+                        <div class="main__skill container">
+                            <div class="main__skill-text">
+                                <p><span id="modalSass">Препроцессор SASS</span><br>Удобная интеграция кода в среду
+                                    разработки</p>
+                            </div>
+                            <div class="main__skill-bg main__skill-bg_position">
+                                <img src="./img/sassBg.png" alt="навыкSASS">
+                                <img id="main__sass" src="./img/sass.png" alt="sassIcon">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="main__portfolio-wrap">
+                <a name="portfolio"></a>
+                <!-- <div class="main__plug"></div> -->
+                <div class="main__portfolio container">
+
+                    <h1 class="main__title">Мои работы<br><span> Без натяжки на CMS</span></h1>
+
+                    <a class="main__link-card" href="./Фонд_Leona/index.html">
+                        <div class="main__portfolio-card">
+                            <div class="main__portfolio-prewie">
+                                <img src="./Фонд_Leona/preview.png" alt="img">
+                            </div>
+                            <div class="main__portfolio-text">
+                                <p><span>Количество страниц:</span> 3 стр.</p>
+                                <p><span>Коммерческий:</span> Да.</p>
+                                <p><span>Адаптивная верстка:</span> Нет (по желанию заказчика).</p>
+                                <p><span>Макет:</span> Figma.</p>
+                                <p><span>Perfect Pixel:</span> Да.</p>
+                                <p><span>Применение методологии БЭМ:</span> Да.</p>
+                                <p><span>Применение препроцессора SASS:</span> Да.</p>
+                                <p><span>Java Script:</span> Да.</p>
+                                <p><span>Использование Grid и FlexBox:</span> Да.</p>
+                                <p><span>Срок выполнения:</span> 11ч.</p>
+                                <a class="main__link-download" href="./Фонд_Leona/scss/index.scss" download=""
+                                    title="исходный код в  формате scss">Скачать исходный код в .SCSS</a>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a class="main__link-card" href="./Teatr/index.html">
+                        <div class="main__portfolio-card container">
+                            <div class="main__portfolio-prewie">
+                                <img src="./Teatr/preview.png" alt="img">
+                            </div>
+                            <div class="main__portfolio-text">
+                                <p><span>Количество страниц:</span> 1 стр.</p>
+                                <p><span>Коммерческий:</span> Нет.</p>
+                                <p><span>Адаптивная верстка:</span> Да.</p>
+                                <p><span>Макет:</span> Figma.</p>
+                                <p><span>Perfect Pixel:</span> Да.</p>
+                                <p><span>Применение методологии БЭМ:</span> Да.</p>
+                                <p><span>Применение препроцессора SASS:</span> Да.</p>
+                                <p><span>Java Script:</span> Да.</p>
+                                <p><span>Использование Grid и FlexBox:</span> Да.</p>
+                                <p><span>Срок выполнения:</span> 3дня.</p>
+                                <a class="main__link-download" href="./Teatr/scss/style.scss" download=""
+                                    title="исходный код в  формате scss">Скачать
+                                    исходный код в .SCSS</a>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="main__link-card" href="./Комп_курсы/index.html">
+                        <div class="main__portfolio-card container">
+                            <div class="main__portfolio-prewie">
+                                <img src="./Комп_курсы/preview.png" alt="img">
+                            </div>
+                            <div class="main__portfolio-text">
+                                <p><span>Количество страниц:</span> 1 стр.</p>
+                                <p><span>Коммерческий:</span> Нет.</p>
+                                <p><span>Адаптивная верстка:</span> Да.</p>
+                                <p><span>Макет:</span> Figma.</p>
+                                <p><span>Perfect Pixel:</span> Да.</p>
+                                <p><span>Применение методологии БЭМ:</span> Да.</p>
+                                <p><span>Применение препроцессора SASS:</span> Да.</p>
+                                <p><span>Java Script:</span> Да.</p>
+                                <p><span>Использование Grid и FlexBox:</span> Да.</p>
+                                <p><span>Срок выполнения:</span> 3дня.</p>
+                                <a class="main__link-download" href="./Комп_курсы/scss/style.scss" download=""
+                                    title="исходный код в формате scss">Скачать исходный код в .SCSS</a>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="main__link-card" href="./Restaurant_landing/index.html">
+                        <div class="main__portfolio-card container">
+                            <div class="main__portfolio-prewie">
+                                <img src="./Restaurant_landing/preview.png" alt="img">
+                            </div>
+                            <div class="main__portfolio-text">
+                                <p><span>Количество страниц:</span> 1 стр.</p>
+                                <p><span>Коммерческий:</span> Нет.</p>
+                                <p><span>Адаптивная верстка:</span> Да.</p>
+                                <p><span>Макет:</span> Figma.</p>
+                                <p><span>Perfect Pixel:</span> Да.</p>
+                                <p><span>Применение методологии БЭМ:</span> Да.</p>
+                                <p><span>Применение препроцессора SASS:</span> Да.</p>
+                                <p><span>Java Script:</span> Да.</p>
+                                <p><span>Использование FlexBox:</span> Да.</p>
+                                <p><span>Срок выполнения:</span> 3дня.</p>
+                                <a class="main__link-download" href="./Restaurant_landing/scss/style.scss" download=""
+                                    title="исходный код в формате scss">Скачать исходный код в .SCSS</a>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="main__link-card" href="./Экспофорум/index.html">
+                        <div class="main__portfolio-card container">
+                            <div class="main__portfolio-prewie">
+                                <img src="./Экспофорум/preview.png" alt="img">
+                            </div>
+                            <div class="main__portfolio-text">
+                                <p><span>Количество страниц:</span> 1 стр.</p>
+                                <p><span>Коммерческий:</span> Нет.</p>
+                                <p><span>Адаптивная верстка:</span> Да.</p>
+                                <p><span>Макет:</span> Figma.</p>
+                                <p><span>Perfect Pixel:</span> Да.</p>
+                                <p><span>Применение методологии БЭМ:</span> Да.</p>
+                                <p><span>Применение препроцессора SASS:</span> Да.</p>
+                                <p><span>Java Script:</span> Да.</p>
+                                <p><span>Использование FlexBox:</span> Да.</p>
+                                <p><span>Срок выполнения:</span> 3дня.</p>
+                                <a class="main__link-download" href="./Restaurant_landing/scss/style.scss" download=""
+                                    title="исходный код в  формате scss">Скачать исходный код в .SCSS</a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- <div class="main__advantage-wrap">
+                <div class="main__advantage container">
+                    <h1 class="main__title">Преимущества работы со мной</h1>
+
+                    
+
+                </div>
+            </div> -->
+            <div class="main__faq-wrap">
+                <a name="faq"></a>
+                <div class="main__faq container">
+                    <h1 class="main__title">FAQ</h1>
+
+                    <details class="main__faq-details">
+                        <summary class="main__faq-subtitle">Какие преимущества работы со мной?</summary>
+                        <div class="main__faq-text-wrap">
+                            <div class="main__faq-column">
+                                <p class="main__text-column">Всегда на связи</p>
+                                <p class="main__text-column">Разумные цены</p>
+                                <p class="main__text-column">Соблюдение сроков</p>
+                            </div>
+                            <div class="main__faq-column">
+                                <p class="main__text-column">Внимание к деталям</p>
+                                <p class="main__text-column">Гарантия</p>
+                                <p class="main__text-column">Код с комментариями</p>
+                            </div>
+
+                        </div>
+
+
+                    </details>
+
+                    <details class="main__faq-details">
+                        <summary class="main__faq-subtitle">Сделаете верстку под CMS?</summary>
+                        <p class="main__faq-text">Верстку под какую-либо CMS не делаю. Вы получаете архив с файлами на
+                            чистом HTML-коде с которым дальше должен работать backend-программист, для посадки на любую
+                            систему управления сайтом (CMS).</p>
+                    </details>
+                    <details class="main__faq-details">
+                        <summary class="main__faq-subtitle">У вас есть гарантия?</summary>
+                        <p class="main__faq-text">Да, конечно. Даю гарантию 3 месяца на свою верстку. Все выявленные в
+                            это время недочеты, допущенные по моей вине, будут исправлены бесплатно.</p>
+                    </details>
+                    <details class="main__faq-details">
+                        <summary class="main__faq-subtitle">Берёте предоплату?</summary>
+                        <p class="main__faq-text">Предоплату не беру в том случае, если работаем через безопасную сделку
+                            на фриланс биржах, в иных случаях предоплата 50% от стоимости услуги. Оплату принимаю на
+                            карту МИР.</p>
+                    </details>
+                </div>
+            </div>
+            <div class="main__connection-wrap">
+                <div class="main__connection container">
+                    <a name="form"></a>
+                    <div class="main__plug"></div>
+                    <!-- НАПИШИТЕ МНЕ -->
+                    <h1 class="main__title">Напишите мне</h1>
+                    <div class="main__columns">
+                        <nav class="main__social">
+                            <div class="main__social-row">
+                                <div class="main__row-inner">
+                                    <a class="main__social-icon" href="//t.me/karina_lesogor"><img
+                                            src="./img/telegram.svg" alt="телеграм"></a>
+                                    <a class="main__social-link" href="//t.me/karina_lesogor">@karina_lesogor</a>
+                                </div>
+
+                            </div>
+
+                            <div class="main__social-row">
+                                <div class="main__row-inner">
+                                    <a class="main__social-icon" href="//wa.me/89644407408"><img
+                                            src="./img/whatsApp.svg" alt="whatsApp"></a>
+                                    <a class="main__social-link" href="//wa.me/89644407408">+7 964-440-74-08</a>
+                                </div>
+
+                            </div>
+
+                            <div class="main__social-row">
+                                <div class="main__row-inner">
+                                    <a class="main__social-icon" href="tel:+79644407408"><img src="./img/phone.svg"
+                                            alt="позвонить"></a>
+                                    <a class="main__social-link" href="tel:+79644407408">+7 964-440-74-08</a>
+                                </div>
+
+                            </div>
+
+                            <div class="main__social-row">
+                                <div class="main__row-inner">
+                                    <a class="main__social-icon" href="mailto:karina_lesogor@mail.ru"><img
+                                            src="./img/email.svg" alt="почта"></a>
+                                    <a class="main__social-link"
+                                        href="mailto:karina_lesogor@mail.ru">karina_lesogor@mail.ru</a>
+                                </div>
+
+                            </div>
+                        </nav>
+                        <!-- <div class="main__form-wrap">
+                            <form action="send_main.php" class="main__form" id="form" name="form" method="POST">
+                                <input type="text" placeholder="Ваше имя*" required id="name" name="name" data-reg="^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$" />
+                                <input type="email" placeholder="Введите e-mail" id="email" name="email" data-reg="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$" />
+                                <input type="text" placeholder="Введите телефон*" required id="phone" name="phone" data-reg="^(\+)?((\d{2,3}) ?\d|\d)(([ -]?\d)|( ?(\d{2,3}) ?)){5,12}\d$" />
+                                <div class="main__file-wrap">
+                                    <div class="main__name-file">Файлы для верстки</div>
+                                    <button class="main__file-btn">Обзор</button>
+                                    <input type="file" name="file" id="file" multiple />
+                                </div>
+                                <textarea name="message" class="main__textarea" placeholder="Сообщение.."></textarea>
+                                <input class="main__submit" type="submit" value="Отправить" id="button" name="button" />
+                            </form>
+                        </div> -->
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__wrap">
+            <div class="footer__columns container">
+                <div class="footer__column footer__column_grow">
+                    <h1 class="footer__title">Карина Лесогор</h1>
+                    <p>Удобная верстка сайтов по PSD макетам, макетам Figma на заказ. Верстка
+                        сайтов, интернет-магазинов и Landing Page (фиксированная, резиновая, адаптивная) без посадки на
+                        CMS.</p>
+                </div>
+                <div class="footer__column">
+                    <h1 class="footer__title">Навигация</h1>
+                    <nav>
+                        <p><a href="#top">Главная</a></p>
+                        <p><a href="#portfolio">Мои работы</a></p>
+                        <p><a href="#faq">FAQ</a></p>
+                    </nav>
+                </div>
+                <div class="footer__column">
+                    <h1 class="footer__title">Контакты</h1>
+                    <p><span>Tel.:</span><a href="tel:+79644407408"> +7 964-440-74-08</a></p>
+                    <p><span>E-mail:</span><a href="mailto:karina_lesogor@mail.ru"> karina_lesogor@mail.ru</a></p>
+                    <p><span>Telegram:</span><a href="//t.me/karina_lesogor"> @karina_lesogor</a></p>
+                    <p><span>WhatsApp:</span><a href="//wa.me/+79644407408"> +7 964-440-74-08</a></p>
+                </div>
+            </div>
+            <div class="footer__copyright container">
+                <p class="footer__copyright-text">Copyright &#169 Карина Лесогор 2022.</p>
+                <a href="//legalacts.ru/kodeks/GK-RF-chast-4/razdel-vii/">Все авторские права защищены.</a>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/index.js"></script>
+    <script src="./js/mobile-nav.js"></script>
+    <script src="./js/forma.js"></script>
+    <script src="./js/modal.js"></script>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript"> (function (m, e, t, r, i, k, a) { m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) }; m[i].l = 1 * new Date(); k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a) })(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(88958290, "init", { clickmap: true, trackLinks: true, accurateTrackBounce: true, webvisor: true, trackHash: true }); 
+    </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/88958290" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+</body>
+
+</html>

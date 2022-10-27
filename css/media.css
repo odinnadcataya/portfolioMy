@@ -1,0 +1,300 @@
+@media (max-width: 1399px) {
+  .main__adaptiv {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  .main__pixel {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  .main__skill {
+    max-width: 1100px;
+    margin: 0 auto 150px auto;
+  }
+  .main__portfolio-card {
+    max-width: 1100px;
+    margin: 0 auto 50px auto;
+  }
+}
+
+@media (max-width: 1305px) {
+  .main__columns {
+    display: block;
+  }
+  .main__form-wrap {
+    margin: 0 auto;
+    width: auto;
+  }
+  .main__social {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    margin: 0px auto 20px auto;
+    /* width: 571px; */
+    max-width: 571px;
+  }
+  .main__social-row {
+    max-width: 285.5px;
+  }
+}
+
+@media (max-width: 1193px) {
+  .main__text {
+    line-height: 1.5;
+  }
+  .main__portfolio-card {
+    display: block;
+    height: auto;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0px auto 50px auto;
+  }
+  .main__link-card {
+    margin: 0 auto;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: auto;
+  }
+  .main__portfolio-prewie {
+    height: auto;
+  }
+  .main__portfolio-text {
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  .main__link-download {
+    margin-top: 15px;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 1069px) {
+  .header__wrap {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .header__icons a {
+    width: 62px;
+  }
+  .header__nav {
+    display: none;
+  }
+  .header__nav-btn {
+    display: block;
+  }
+  .main__hero {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .main__text-wrap {
+    /* flex: 0 1 404px; */
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 0;
+        -ms-flex: 0 0 0px;
+            flex: 0 0 0;
+  }
+  .main__text {
+    margin-bottom: 0px;
+  }
+  .main__time {
+    padding-bottom: 40px;
+  }
+  .main__foto {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1 300px;
+        -ms-flex: 0 1 300px;
+            flex: 0 1 300px;
+  }
+  .main__skill {
+    display: block;
+    height: auto;
+    margin-bottom: 50px;
+  }
+  .main__skill-text {
+    margin: 0 auto;
+  }
+  .main__skill-bg {
+    margin: 0 auto;
+  }
+  .main__adaptiv-wrap {
+    margin-bottom: 50px;
+  }
+  .main__adaptiv {
+    display: block;
+    height: auto;
+  }
+  .main__adaptiv p {
+    position: static;
+    padding-top: 15px;
+  }
+  .main__adaptiv-text {
+    display: block;
+    line-height: 1.1;
+    margin: 0 auto;
+    width: 100%;
+    padding: 14px;
+  }
+  .main__adaptiv-img {
+    margin: 0 auto;
+  }
+  .main__pixel {
+    margin-bottom: 50px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+    padding: 25px;
+  }
+  .main__pixel-title {
+    width: auto;
+  }
+}
+
+@media (max-width: 774px) {
+  .main {
+    /* &__hero {
+            flex-direction: column-reverse;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        &__text-wrap {
+            flex: 0 1 404px;
+        }
+        &__text {
+            margin-bottom: 0px;
+        }
+        &__time {
+            padding-bottom: 40px;
+        } */
+    /* &__foto {
+            flex: 0 1 300px;
+        } */
+  }
+  .main__modal-window {
+    margin: 0px 20px 0px 20px;
+    max-width: 513px;
+  }
+  .main__textarea {
+    height: 40vw;
+  }
+  .main__tech-box {
+    height: 298px;
+  }
+  .main__maket-wrap {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main__img {
+    height: 150px;
+    width: 150px;
+  }
+  .main__faq-details[open] > .main__faq-subtitle::after {
+    -webkit-background-size: 25px 25px;
+            background-size: 25px 25px;
+    width: 25px;
+    height: 25px;
+    top: 3px;
+  }
+  .main__faq-subtitle::after {
+    -webkit-background-size: 25px 25px;
+            background-size: 25px 25px;
+    width: 25px;
+    height: 25px;
+  }
+  .main__faq-details {
+    margin-bottom: 20px;
+  }
+  .main__faq-details {
+    padding: 5px;
+  }
+  .main__faq-text-wrap {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main__text-column::before {
+    -webkit-background-size: 22px 22px;
+            background-size: 22px 22px;
+    left: -17px;
+    width: 22px;
+    height: 22px;
+  }
+  .footer__columns {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    max-width: 450px;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    gap: 5px;
+    padding: 5px;
+    margin: 0;
+  }
+  .footer__column p {
+    margin-bottom: 0px;
+  }
+  .footer__title {
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 590px) {
+  .main__social {
+    display: block;
+  }
+  .main__social-icon {
+    width: 55px;
+    height: 40px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 390px) {
+  .header__icons {
+    display: none;
+  }
+  .header__icons_mobile {
+    display: block;
+  }
+  .main__submit {
+    max-width: 100%;
+    width: 100%;
+  }
+  .main__text-column::before {
+    -webkit-background-size: 12px 12px;
+            background-size: 12px 12px;
+    width: 12px;
+    height: 12px;
+  }
+  .main__modal-window {
+    padding: 5px;
+  }
+}

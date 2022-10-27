@@ -1,0 +1,287 @@
+@media (max-width: 1399px){
+    .main{
+        &__adaptiv{
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        &__pixel{
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        &__skill{
+            max-width: 1100px;
+            margin: 0 auto 150px auto;
+        }
+        &__portfolio-card{
+            max-width: 1100px;
+            margin: 0 auto 50px auto;
+        }
+    }
+}
+@media (max-width: 1305px) {
+    .main{
+        
+        &__columns{
+            display: block;
+        }
+        &__form-wrap{
+            margin: 0 auto;
+            width: auto;
+        }
+        &__social{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 0px auto 20px auto;
+            /* width: 571px; */
+            max-width: 571px;
+        }
+        &__social-row{
+            max-width: 285.5px;
+            
+        }
+
+    }
+}
+@media (max-width: 1193px) {
+    .main {
+        &__text {
+            line-height: 1.5;
+        }
+        &__portfolio-card {
+            display: block;
+            height: auto;
+            width: fit-content;
+            margin: 0px auto 50px auto;
+        }
+        &__link-card {
+            margin: 0 auto;
+            width: fit-content;
+            height: auto;
+        }
+        &__portfolio-prewie {
+            height: auto;
+        }
+        &__portfolio-text {
+            text-align: center;
+            margin: 0 auto;
+            padding: 10px;
+        }
+        &__link-download {
+            margin-top: 15px;
+            font-weight: bold;
+        }
+    }
+}
+@media (max-width: 1069px) {
+    .header {
+        &__wrap {
+            justify-content: space-between;
+        }
+        &__icons a {
+            width: 62px;
+        }
+        &__nav {
+            display: none;
+        }
+        &__nav-btn {
+            display: block;
+        }
+    }
+    .main {
+        &__hero {
+            flex-direction: column-reverse;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        &__text-wrap {
+            /* flex: 0 1 404px; */
+            flex: 0 0 0;
+        }
+        &__text {
+            margin-bottom: 0px;
+        }
+        &__time {
+            padding-bottom: 40px;
+        }
+        &__foto {
+            flex: 0 1 300px;
+        }
+        &__skill {
+            display: block;
+            height: auto;
+            margin-bottom: 50px;
+        }
+        &__skill-text {
+            margin: 0 auto;
+        }
+        &__skill-bg {
+            margin: 0 auto;
+        }
+        &__adaptiv-wrap {
+            margin-bottom: 50px;
+        }
+        &__adaptiv {
+            display: block;
+            height: auto;
+        }
+        &__adaptiv p {
+            position: static;
+            padding-top: 15px;
+        }
+        &__adaptiv-text {
+            display: block;
+            line-height: 1.1;
+            margin: 0 auto;
+            width: 100%;
+            padding: 14px;
+        }
+        &__adaptiv-img {
+            margin: 0 auto;
+        }
+        &__pixel {
+            margin-bottom: 50px;
+            flex-direction: column;
+            height: auto;
+            padding: 25px;
+        }
+        &__pixel-title {
+            width: auto;
+        }
+        
+        
+        
+        
+    }
+}
+@media (max-width: 774px) {
+    .main {
+        /* &__hero {
+            flex-direction: column-reverse;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        &__text-wrap {
+            flex: 0 1 404px;
+        }
+        &__text {
+            margin-bottom: 0px;
+        }
+        &__time {
+            padding-bottom: 40px;
+        } */
+        /* &__foto {
+            flex: 0 1 300px;
+        } */
+        &__modal-window {
+            margin: 0px 20px 0px 20px;
+            max-width: 513px;
+        }
+        &__textarea {
+            height: 40vw;
+        }
+
+        &__tech-box {
+            height: 298px;
+        }
+        &__maket-wrap {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        &__img {
+            height: 150px;
+            width: 150px;
+        }
+        &__faq-details[open] > .main__faq-subtitle::after{
+            background-size: 25px 25px;
+            width: 25px;
+            height: 25px;
+            top: 3px;
+        }
+        &__faq-subtitle::after {
+            background-size: 25px 25px;
+            width: 25px;
+            height: 25px;
+        }
+        &__faq-details{
+            margin-bottom: 20px;
+        }
+        
+        &__faq-details {
+            padding: 5px;
+            
+        }
+        &__faq-text-wrap{
+            justify-content: center;
+        }
+        &__text-column::before{
+            background-size: 22px 22px;
+            left: -17px;
+            width: 22px;
+            height: 22px;
+        }
+        
+    }
+    .footer{
+        &__columns{
+            flex-wrap: wrap;
+            max-width: 450px;
+            justify-content: flex-start;
+            gap: 5px;
+            padding: 5px;
+            margin: 0;
+        }
+        &__column{
+            p{
+                margin-bottom: 0px;
+            }
+        }
+        &__title{
+            margin-bottom: 5px;
+        }
+    }
+}
+@media (max-width: 590px) {
+    .main{
+        &__social{
+            display: block;
+        }
+        &__social-icon{
+            width: 55px;
+            height: 40px;
+            padding: 10px;
+        }
+    }
+    .footer{
+        &__copyright{
+            
+        }
+    }
+}
+
+@media (max-width: 390px) {
+    .header {
+        &__icons {
+            display: none;
+            &_mobile{
+                display: block;
+            }
+        }
+    }
+    .main {
+        &__submit {
+            max-width: 100%;
+            width: 100%;
+        }
+        &__text-column::before{
+            background-size: 12px 12px;
+            
+            width: 12px;
+            height: 12px;
+        }
+        &__modal-window{
+            padding: 5px;
+        }
+        
+    }
+}
